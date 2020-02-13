@@ -14,7 +14,7 @@ should be designed to navigate the vehicle one step at a time.
 
 ### Town Map
 
-
+![townmap.png](townmap.png)
 
 # API Documentation
 ## public class Simulator
