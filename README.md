@@ -21,7 +21,17 @@ should be designed to navigate the vehicle one step at a time until the target i
 ![TownSim.gif](TownSim.gif)
 
 The Simulator prints messages to the console as it runs. These messages indicate the location of the vehicle as it navigates and 
-may assist in writing and debugging the Vehicle class.
+may assist in writing and debugging the Vehicle class. In the example above the vehicle is represented by the orange square, the goal
+by the green, streets by the light gray squares, and buildings by dark gray. In the example, the vehicle drives past the goal and 
+crashes at the end of First Street; the crash state is indicated by the vehicle turning red.
+
+The messages printed to the console during this example run of the Simulator looked like this:
+```
+Continuing on First Street.
+Continuing on First Street.
+Continuing on First Street.
+Crashed on First Street.
+```
 
 # API Documentation
 ## public class Simulator
