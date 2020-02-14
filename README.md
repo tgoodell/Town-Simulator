@@ -16,6 +16,10 @@ should be designed to navigate the vehicle one step at a time until the target i
 
 ![townmap.png](townmap.png)
 
+## Simulator Running
+
+![TownSim.gif](TownSim.gif)
+
 The Simulator prints messages to the console as it runs. These messages indicate the location of the vehicle as it navigates and 
 may assist in writing and debugging the Vehicle class.
 
