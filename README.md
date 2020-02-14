@@ -10,11 +10,14 @@ the following signature:
 
 that provides the functionality to allow and instance of Vehicle (instantiated by the Simulator class file) to navigate the town 
 described below. The Simulator proceeds step by step calling the ```travel()``` method once every second, so any code in ```travel()```
-should be designed to navigate the vehicle one step at a time.
+should be designed to navigate the vehicle one step at a time until the target is reached.
 
 ### Town Map
 
 ![townmap.png](townmap.png)
+
+The Simulator prints messages to the console as it runs. These messages indicate the location of the vehicle as it navigates and 
+may assist in writing and debugging the Vehicle class.
 
 # API Documentation
 ## public class Simulator
