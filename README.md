@@ -35,7 +35,7 @@ Crashed on First Street.
 ```
 
 ### Using the Simulator
-In the folder _prgmng-challenge/Town-Simulator/src_ you will find a Java Archive (.jar) file named ```Simulator.jar``` and a template
+In the folder [prgmng-challenge/Town-Simulator/src](src/) you will find a Java Archive (.jar) file named ```Simulator.jar``` and a template
 for the Vehicle class named ```Vehicle.java```. To build and test your code, You will complete the definition of the Vehicle class, 
 compile, then add the resulting .class file to Simulator.jar by using the ```jar``` tool in the terminal or Command Prompt. This 
 is done as follows:
