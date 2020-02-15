@@ -34,6 +34,27 @@ Continuing on First Street.
 Crashed on First Street.
 ```
 
+### Using the Simulator
+In the folder _prgmng-challenge/Town-Simulator/src_ you will find a Java Archive (.jar) file named ```Simulator.jar``` and a template
+for the Vehicle class named ```Vehicle.java```. To build and test your code, You will complete the definition of the Vehicle class, 
+compile, then add the resulting .class file to Simulator.jar by using the ```jar``` tool in the terminal or Command Prompt. This 
+is done as follows:
+
+#### Add class file to JAR
+```jar uf Simulator.jar Vehicle.class```
+
+#### Remove class file from JAR (Windows)
+```
+jar xf Simulator.jar <-- Extract JAR, use an empty directory
+del Vehicle.class <-- Change del to rm for UNIX/Linux
+jar cvfm Simulator.jar META-INF\MANIFEST.MF *.class <--Use forward slash for UNIX/Linux
+```
+
+#### Run JAR File
+```
+java -jar Simulator.jar
+```
+
 # API Documentation
 ## public class Simulator
 ### Methods:
