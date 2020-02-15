@@ -32,14 +32,18 @@ Github.
 [Basics of ```git``` (Command Line)](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 ## Official Challenge Description
-Given the Java class files Simulator.class, Town.class, and Display.class define the Vehicle class having a method with
+Given an executable Java Archive, Simulator.jar, which simulates a town, define and add the Vehicle class having a constructor with
 the following signature: 
+```Java
+public Vehicle(Simulator s)
+```
+and a method, travel() with the following signature:
 
 ```public void travel()```
 
-that provides the functionality to allow and instance of Vehicle (instantiated by the Simulator class file) to navigate the town 
+that provides the functionality to allow an instance of Vehicle (instantiated by the Simulator class file within Simulator.jar) to navigate the town 
 described below. The Simulator proceeds step by step calling the ```travel()``` method once every second, so any code in ```travel()```
-should be designed to navigate the vehicle one step at a time until the target is reached. Simulation runs repeatedly until window is 
+should ideally be designed to return control to the simulator's main method after each call. Simulation runs repeatedly until window is 
 closed.
 
 ### Town Map
@@ -97,20 +101,20 @@ java -jar Simulator.jar
   Takes as an argument a cardinal direction: "NORTH", "SOUTH", "EAST", "WEST". Returns the location one step ahead as a String.<br/>
   
 **public void drive(String direction)**<br/>
-  Accepts as an argument a cardinal direction to look: "NORTH", "SOUTH", "EAST", "WEST". Moves the vehicle in the direction indicated in the 
+  Accepts as an argument a cardinal direction: "NORTH", "SOUTH", "EAST", "WEST". Moves the vehicle in the direction indicated in the 
   argument.<br/>
   
 ### Samples:
 
 if location is currently somewhere on Main Street the following prints **"Main Street"**.
-```
+```Java
 Simulator simulator = new Simulator();
 current_location = simulator.get_location()
 System.out.println(current_location); 
 ```
 If location just ahead in the direction given is off the map or a location that would result in a crash, such as a building, 
 the following prints **"Invalid Location"**.
-```
+```Java
 Simulator simulator = new Simulator();
 looking_west = simulator.look_ahead("WEST")
 System.out.println(looking_west); 
