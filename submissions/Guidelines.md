@@ -1,6 +1,6 @@
 # Submission Guidelines
 
-Upload a folder with named _firstname-lastname_, replacing _firstname_ with your first name and _lastname_ with your last name,
+Upload a folder named _firstname-lastname_, replacing _firstname_ with your first name and _lastname_ with your last name,
 containing:
 
 1. an executable .jar file
