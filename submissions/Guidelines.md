@@ -1,7 +1,6 @@
 # Submission Guidelines
 
-Upload a folder named _firstname-lastname_, replacing _firstname_ with your first name and _lastname_ with your last name,
-containing:
+Upload a folder named _githubUsername_, replacing _githubUsername_ with your Github account name containing:
 
 1. an executable .jar file
 2. the uncompiled Vehicle.java file
