@@ -1,5 +1,6 @@
 public class Vehicle{
-    Simulator simulator;
+    Simulator simulator; // This is your hook into the Simulator API
+    
     public Vehicle(Simulator s){
         this.simulator = s;
     }
