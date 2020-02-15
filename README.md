@@ -10,7 +10,8 @@ the following signature:
 
 that provides the functionality to allow and instance of Vehicle (instantiated by the Simulator class file) to navigate the town 
 described below. The Simulator proceeds step by step calling the ```travel()``` method once every second, so any code in ```travel()```
-should be designed to navigate the vehicle one step at a time until the target is reached.
+should be designed to navigate the vehicle one step at a time until the target is reached. Simulation runs repeatedly until window is 
+closed.
 
 ### Town Map
 
