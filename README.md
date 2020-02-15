@@ -11,12 +11,16 @@ changes to, to avoid altering your original copy of the repo. Navigate to the sr
 "Download" to download a copy of the Simulator.jar file to work with locally. Navigate back to the src folder and do the same for the 
 Vehicle.java file. 
 
+### Submitting
+
 Once you are done writing your code, navigate to the 'submissions' folder and read the contents of the _Submission Guidelines_ file. 
 Create the folder and contents as described there click "Upload files", upload your folder, and click "Commit Changes" to finalize. 
 Next, click "New Pull Request", and finally "Create Pull Request". If this is successful, you will have completed your submission.
 
 Alternatively, you may use GitHub Desktop or a local installation of ```git``` to perform these steps, depending on your comfort with
 Github.
+
+[More information](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
 
 ### Helpful Links
 [Download Github Desktop](https://desktop.github.com/)
