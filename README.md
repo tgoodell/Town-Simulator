@@ -3,7 +3,7 @@ Programming challenge. Given the API documentation for a simulation of a town, d
 Vehicle, that will navigate the town, seeking a target location randomly selected by the simulator at run time.
 
 ## Get Started
-#### _These instructions presume that you have the Java Development Kit (JDK) installed on your device._
+#### _To complete this challenge you must have the Java Development Kit (JDK 7 minimum)  installed on your device._
 To begin, create a Github account if you don't have one, login, and on your homepage click "Explore" in the navigation bar. In the
 search box search 
 **prgmng-challenge/Town-Simulator** and navigate to this repository. At the top-right click "Fork" to create a copy of this repo in 
