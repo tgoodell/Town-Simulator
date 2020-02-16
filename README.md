@@ -3,6 +3,7 @@ Programming challenge. Given the API documentation for a simulation of a town, d
 Vehicle, that will navigate the town, seeking a target location randomly selected by the simulator at run time.
 
 ## Get Started
+#### _These instructions presume that you have the Java Development Kit (JDK) installed on your device._
 To begin, create a Github account if you don't have one, login, and on your homepage click "Explore" in the navigation bar. In the
 search box search 
 **prgmng-challenge/Town-Simulator** and navigate to this repository. At the top-right click "Fork" to create a copy of this repo in 
@@ -39,7 +40,9 @@ public Vehicle(Simulator s)
 ```
 and a method, travel() with the following signature:
 
-```public void travel()```
+```Java 
+public void travel()
+```
 
 that provides the functionality to allow an instance of Vehicle (instantiated by the Simulator class file within Simulator.jar) to navigate the town 
 described below. The Simulator proceeds step by step calling the ```travel()``` method once every second, so any code in ```travel()```
