@@ -2,36 +2,6 @@
 Programming challenge. Given the API documentation for a simulation of a town, define a method, travel(), for a corresponding class,
 Vehicle, that will navigate the town, seeking a target location randomly selected by the simulator at run time.
 
-## Get Started
-#### _To complete this challenge you must have the Java Development Kit (JDK 7 minimum)  installed on your device._
-To begin, create a Github account if you don't have one, login, and on your homepage click "Explore" in the navigation bar. In the
-search box search 
-**prgmng-challenge/Town-Simulator** and navigate to this repository. At the top-right click "Fork" to create a copy of this repo in 
-your own account. In your forked repo, click the "branch" dropdown, enter a new name and press ENTER to create a new branch to make 
-changes to, to avoid altering your original copy of the repo. Navigate to the src folder and click the Simulator.jar file. Click 
-"Download" to download a copy of the Simulator.jar file to work with locally. Navigate back to the src folder and do the same for the 
-Vehicle.java file. 
-
-### Submitting
-
-Once you are done writing your code, navigate to the 'submissions' folder and read the contents of the _Submission Guidelines_ file. 
-Create the folder and contents as described there click "Upload files", upload your folder, and click "Commit Changes" to finalize. 
-Next, click "New Pull Request", and finally "Create Pull Request". If this is successful, you will have completed your submission.
-
-Alternatively, you may use GitHub Desktop or a local installation of ```git``` to perform these steps, depending on your comfort with
-Github.
-
-[More information](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
-
-### Helpful Links
-[Download Github Desktop](https://desktop.github.com/)
-
-[Get Started with Github Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)
-
-[Install ```git``` locally (not necessary for Github Desktop)](https://git-scm.com/downloads)
-
-[Basics of ```git``` (Command Line)](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-
 ## Official Challenge Description
 Given an executable Java Archive, Simulator.jar, which simulates a town, define and add the Vehicle class having a constructor with
 the following signature: 
@@ -69,6 +39,36 @@ Continuing on First Street.
 Continuing on First Street.
 Crashed on First Street.
 ```
+
+## Get Started
+#### _To complete this challenge you must have the Java Development Kit (JDK 7 minimum)  installed on your device._
+To begin, create a Github account if you don't have one, login, and on your homepage click "Explore" in the navigation bar. In the
+search box search 
+**prgmng-challenge/Town-Simulator** and navigate to this repository. At the top-right click "Fork" to create a copy of this repo in 
+your own account. In your forked repo, click the "branch" dropdown, enter a new name and press ENTER to create a new branch to make 
+changes to, to avoid altering your original copy of the repo. Navigate to the src folder and click the Simulator.jar file. Click 
+"Download" to download a copy of the Simulator.jar file to work with locally. Navigate back to the src folder and do the same for the 
+Vehicle.java file. 
+
+### Submitting
+
+Once you are done writing your code, navigate to the 'submissions' folder and read the contents of the _Submission Guidelines_ file. 
+Create the folder and contents as described there click "Upload files", upload your folder, and click "Commit Changes" to finalize. 
+Next, click "New Pull Request", and finally "Create Pull Request". If this is successful, you will have completed your submission.
+
+Alternatively, you may use GitHub Desktop or a local installation of ```git``` to perform these steps, depending on your comfort with
+Github.
+
+[More information](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+
+### Helpful Links
+[Download Github Desktop](https://desktop.github.com/)
+
+[Get Started with Github Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)
+
+[Install ```git``` locally (not necessary for Github Desktop)](https://git-scm.com/downloads)
+
+[Basics of ```git``` (Command Line)](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 ### Using the Simulator
 In the folder [prgmng-challenge/Town-Simulator/src](src/) you will find a Java Archive (.jar) file named ```Simulator.jar``` and a template
